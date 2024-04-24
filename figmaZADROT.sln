@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "figmaZADROT", "figmaZADROT\figmaZADROT.csproj", "{45B02F0C-659E-4265-AC64-EC519BDA6CBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45B02F0C-659E-4265-AC64-EC519BDA6CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B02F0C-659E-4265-AC64-EC519BDA6CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B02F0C-659E-4265-AC64-EC519BDA6CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B02F0C-659E-4265-AC64-EC519BDA6CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {933407B3-2C7F-42B4-AA9A-DD3747A66D9B}
+	EndGlobalSection
+EndGlobal
