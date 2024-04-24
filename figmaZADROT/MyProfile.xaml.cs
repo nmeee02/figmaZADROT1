@@ -20,9 +20,11 @@ namespace figmaZADROT
     /// </summary>
     public partial class MyProfile : Page
     {
-        public MyProfile()
+        Frame fr;
+        public MyProfile(Frame fr)
         {
             InitializeComponent();
+            this.fr = fr;
         }
 
         internal void Show()
@@ -30,10 +32,11 @@ namespace figmaZADROT
             throw new NotImplementedException();
         }
 
+  
 
-        private void myback(object sender, RoutedEventArgs e)
+        private void closebt_MouseDown(object sender, RoutedEventArgs e)
         {
-
+            fr.Content=null;
         }
     }
 }

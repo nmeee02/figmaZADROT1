@@ -14,7 +14,7 @@
             <RowDefinition Height="5*"/>
         </Grid.RowDefinitions>
         <Grid Background="#565656">
-            <Button Height="40" Width="100" HorizontalAlignment="Left" Margin="10 0 0 0" Background="{x:Null}" Content="Back" FontFamily="Impact" FontSize="24" />
+            <Button Height="40" Width="100" HorizontalAlignment="Left" Margin="10 0 0 0" Background="{x:Null}" Content="Back" FontFamily="Impact" FontSize="24" x:Name="closeframe" Click="closeframe_Click" />
         </Grid>
         <Grid Grid.Row="1">
             <Grid.RowDefinitions>

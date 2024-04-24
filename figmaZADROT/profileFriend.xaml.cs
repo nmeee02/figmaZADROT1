@@ -20,9 +20,20 @@ namespace figmaZADROT
     /// </summary>
     public partial class profileFriend : Page
     {
+        Frame fr;
+
         public profileFriend()
         {
+        }
+
+        public profileFriend(Frame fr)
+        {
             InitializeComponent();
+        }
+
+        private void closeframe_Click(object sender, RoutedEventArgs e)
+        {
+            fr.Content = null;
         }
     }
 }

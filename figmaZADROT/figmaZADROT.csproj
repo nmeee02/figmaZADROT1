@@ -85,6 +85,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="newChat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="profileFriend.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -93,6 +97,9 @@
   <ItemGroup>
     <Compile Include="MyProfile.xaml.cs">
       <DependentUpon>MyProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="newChat.xaml.cs">
+      <DependentUpon>newChat.xaml</DependentUpon>
     </Compile>
     <Compile Include="profileFriend.xaml.cs">
       <DependentUpon>profileFriend.xaml</DependentUpon>

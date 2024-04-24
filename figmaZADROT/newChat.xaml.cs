@@ -15,24 +15,22 @@ using System.Windows.Shapes;
 namespace figmaZADROT
 {
     /// <summary>
-    /// Логика взаимодействия для chats.xaml
+    /// Логика взаимодействия для newChat.xaml
     /// </summary>
-    public partial class chats : Window
+    public partial class newChat : Window
     {
-        public chats()
+        
+        public newChat()
         {
             InitializeComponent();
+            
         }
 
-        private void myAccount_Click(object sender, RoutedEventArgs e)
+        private void Create(object sender, RoutedEventArgs e)
         {
-            allthis.Content = new MyProfile(allthis);        
+            
         }
 
-        private void newChat_Click(object sender, RoutedEventArgs e)
-        {
-            newChat newChat = new newChat();
-            newChat.ShowDialog();
-        }
+        
     }
 }

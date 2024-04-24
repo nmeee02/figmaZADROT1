@@ -27,8 +27,8 @@
                 </TextBox.Resources>
             </TextBox>
             <Grid Grid.Row="2">
-                <ListBox x:Name="ListBox" Background="#D9D9D9">
-                    <Button Height="20" Width="100" BorderBrush="#D9D9D9"  Content="+ New chat" />
+                <ListBox x:Name="ListUsers" Background="#D9D9D9">
+                    <Button Height="20" Width="100"  Background="#FFD9D9D9" HorizontalAlignment="Center" Content="New Chat" x:Name="newChat" Click="newChat_Click"></Button>
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition />
@@ -50,7 +50,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
             
-            <Button Width="110" Height="40" Grid.Row="0" Background="Black" Content="My account" FontFamily="Impact" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0 30 20 0" Foreground="White" Click="Button_Click1" x:Name="myAccount" >
+            <Button Width="110" Height="40" Grid.Row="0" Background="Black" Content="My account" FontFamily="Impact" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0 30 20 0" Foreground="White"  x:Name="myAccount" Click="myAccount_Click" >
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="15"/>
